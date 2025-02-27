@@ -1,0 +1,96 @@
+/* Estilização do BODY*/
+body{
+   margin: 0;
+   border: 0;
+   font-family: 'tahoma', 'Arial';
+   background-color: rgba(120, 0, 0, 0.651);
+}
+.logo{
+   width: 5%;
+   margin: 0px 0 -6px;
+
+}
+
+.logo2{
+   width: 38%;
+   margin: 0px 0 -4px;
+   
+}
+
+header{
+   background-color: rgb(206 215 198);
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 4px;
+}
+/*Estilização do Titulo*/
+.divTitle{
+   position: relative;
+   margin: auto;  
+   padding-bottom: 50px;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+   
+    top: 5px;
+    right: 50px
+}
+nav li{
+   display: inline;
+   color: #6BA1FF;
+   font-size: 20px;
+   margin-right: 15px;
+}
+
+.banner {
+   width:  100%;
+   height:600px;
+   /* object-fit: cover; */
+}
+
+.subtitulo {
+      color: hsl(218, 100%, 65%);
+      text-align: center; font-size: 28px;
+      width: 100%;
+}
+
+/*Estilização da sessão Sobre_nos*/
+.sobre_nos {
+     margin: 0;
+     text-align: justify;
+     width: 60%;
+     margin-left: 30%;
+}
+.img_sobrenos {
+   width: 15%;
+   float: left;
+   margin-right: 20px;
+}
+.titulo_sobrenos {
+   clear: left;
+   text-align: center;
+   
+}
+.texto_diferente{
+   color: navy;
+   font-weight: 100;
+   text-decoration: underline;
+}
+/*Estilização da seção Nosso Estabelecimento*/
+.mapa_geral{
+   padding-left: 10%;
+   background: linear-gradient( rgba(120, 0, 0, 0.651),#FFFFFF);
+}
+.mapa_geral p {
+
+   text-align: center;
+}
+.mapa{
+
+   margin-left:30%;
+      
+}
